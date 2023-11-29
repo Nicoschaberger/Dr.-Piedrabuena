@@ -1,0 +1,63 @@
+/* Reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: black;
+}
+
+.animate__backInLeft{
+  width: 40%;
+  animation-duration: 2s;
+}
+
+.carro{
+  margin: auto;
+}
+
+.animate__lightSpeedInLeft{
+  width: 50%;
+  margin-left: 24%;
+  animation-duration: 2s;
+}
+
+.stack{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate__zoomIn{
+  width: 20%;
+  margin: auto;
+  animation-duration: 3s;
+}
+
+.animate__lightSpeedInRight{
+  text-align: center;
+  margin: 10%;
+  animation-duration: 3s;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+}
+
+.animate__backInDown{
+  animation-duration: 3s;
+  
+}
+
+.animate__backInDown:hover{
+transform: scale(1.8);
+}
+
+
