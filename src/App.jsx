@@ -4,7 +4,8 @@ import Logo from './Component/Logo';
 import NavBar from './Component/NavBar';
 import Person from './Component/Person';
 import Contact from './Component/Contact';
-import Carousel from './Component/Carousel'
+import Carousel from './Component/Carousel';
+
 
 
 const App = () => {
@@ -19,7 +20,6 @@ const App = () => {
       <Route path='/Person' element={<Person/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Carousel' element={<Carousel/>}/>
-      
       
 
       </Routes>

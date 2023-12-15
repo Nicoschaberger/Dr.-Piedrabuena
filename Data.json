@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        
+        "imagen": "../img/Consejo1.png"
+        
+    },
+    {
+        "id": 2,
+        
+        "imagen": "../img/Consejo2.png"
+        
+    },
+    {
+        "id": 3,
+        
+        "imagen":"../img/Consejo3.png"
+    },
+    {
+        "id": 4,
+        
+        "imagen":"../img/Consejo4.png"
+
+    },
+    {
+        "id": 5,
+        
+        "imagen":"../img/Consejo5.png"
+    }
+]

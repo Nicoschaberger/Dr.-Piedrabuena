@@ -60,4 +60,21 @@
 transform: scale(1.8);
 }
 
+.consejo{
+  width: 30%;
+}
 
+.consejo1{
+  display: flex;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 6%;
+  border: solid 1px black;
+}
+
+.consejo1:hover{
+  animation-duration: 3s;
+  transform: scale(1.2);
+}

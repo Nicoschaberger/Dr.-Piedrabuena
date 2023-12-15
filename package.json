@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tailwindcss build styles.css -o output.css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -13,6 +13,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@sefailyasoz/react-carousel": "^1.1.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
     "framer-motion": "^10.6.8",
@@ -20,7 +21,10 @@
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
-    "react-social-icons": "^6.7.0"
+    "react-slick": "^0.29.0",
+    "react-social-icons": "^6.7.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
@@ -31,5 +35,18 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
-  }
+  },
+  "description": "Pagina web para la Dra. Piedrabuena.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicoschaberger/Dr.-Piedrabuena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicoschaberger/Dr.-Piedrabuena/issues"
+  },
+  "homepage": "https://github.com/Nicoschaberger/Dr.-Piedrabuena#readme"
 }
